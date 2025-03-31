@@ -20,9 +20,6 @@ jobs:
             - name: "Install dependencies"
               run: npm install
 
-            - name: "Install pm2 globally" # This is going to install pm2 globally on machine.
-              run: npm install pm2 -g
-
             - name: "Run the tests"
               run: npm test
 
